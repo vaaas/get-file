@@ -1,8 +1,8 @@
 {
-	"name": "serve",
+	"name": "get-file",
 	"version": "1.0.0",
-	"description": "serve http response",
-	"main": "serve.js",
+	"description": "create a file read stream",
+	"main": "get-file.js",
 	"keywords": [
 		"http",
 		"server"
@@ -11,7 +11,7 @@
 	"license": "AGPL-3.0",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/vaaas/serve.git"
+		"url": "git://github.com/vaaas/get-file.git"
 	},
 	"dependencies": {
 		"determine-mime-type": "git+https://github.com/vaaas/determine-mime-type.git"
