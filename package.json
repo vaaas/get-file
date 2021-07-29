@@ -1,0 +1,19 @@
+{
+	"name": "serve",
+	"version": "1.0.0",
+	"description": "serve http response",
+	"main": "serve.js",
+	"keywords": [
+		"http",
+		"server"
+	],
+	"author": "vas",
+	"license": "AGPL-3.0",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/vaaas/serve.git"
+	},
+	"dependencies": {
+		"determine-mime-type": "git+https://github.com/vaaas/determine-mime-type.git"
+	}
+}
