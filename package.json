@@ -1,6 +1,6 @@
 {
 	"name": "get-file",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "create a file read stream",
 	"main": "get-file.js",
 	"keywords": [
@@ -14,6 +14,7 @@
 		"url": "git://github.com/vaaas/get-file.git"
 	},
 	"dependencies": {
-		"determine-mime-type": "git+https://github.com/vaaas/determine-mime-type.git"
+		"determine-mime-type": "git+https://github.com/vaaas/determine-mime-type.git",
+		"error-responses": "git+https://github.com/vaaas/error-responses.git"
 	}
 }
