@@ -1,6 +1,6 @@
 {
 	"name": "get-file",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "create a file read stream",
 	"main": "get-file.js",
 	"keywords": [
