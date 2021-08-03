@@ -4,7 +4,7 @@ const determine_mime_type = require('determine-mime-type')
 const error_responses = require('error-responses')
 const access = x => new Promise((yes, no) => fs.access(x, fs.constants.R_OK, e => e ? yes(false) : yes(true)))
 const stat = x => new Promise((yes, no) => fs.stat(x, (e, x) => e ? no(e) : yes(x)))
-module.exports = function get_file(pathname) {
+module.exports = async function get_file(pathname) {
 	{ if (await access(pathname))
 		if ((await stat(pathname)).isFile())
 			return {
